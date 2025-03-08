@@ -2,6 +2,7 @@ import UIKit
 
 // 1 print person name or " Hello World"
 
+// TODO: Не нужен пробел после ""
 func printHi(_ person: String = "" ) {
     guard person.isEmpty else {
         return print("Hello, \(person)!")
@@ -13,6 +14,7 @@ printHi("Misha")
 
 // 2 return sum of chars
 
+// TODO: Нужен пробел после запятой
 func sumOfCharacters(_ string1: String,_ string2: String) -> Int {
     let sum1 = string1.count
     let sum2 = string2.count
@@ -22,6 +24,7 @@ sumOfCharacters ("Misha", "Afanasij")
 
 // 3 function that prints squre from input number
 
+// TODO: Не нужен пробел перед скобками
 func squreFrom (_ number: Int) {
     return print("\(number * number)")
 }
@@ -30,6 +33,7 @@ print(squreFrom(8))
 
 //4 function that calculates area of circle through radius
 
+// TODO: Не нужен пробел перед скобками
 func areaOfCircle (_ radius: Double) {
   3.14 * radius * radius
 }
@@ -78,6 +82,7 @@ stripNum("+375293267777")
 
 // 8 prime number function
 
+// TODO: Названия функций всегда с маленькой буквы
 func FindPrime(_ number: Int) -> Bool {
     guard number >= 2 else { return false }
     guard number <= 100 else { return false }
@@ -111,6 +116,7 @@ factorialValue(5)
 
 // 10 Fibonnachi
 
+// TODO: Не нужен пробел перед num
 func fibo( num: Int) {
    var a = 0, b = 1
     var result = ""
