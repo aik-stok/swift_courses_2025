@@ -52,9 +52,9 @@ func getExchangeRate(from: Currency, to: Currency) -> Double? {
         }
     }
     print(rates)
-    return rates.value
+    return nil
     // без асинхронных функций запрос не отправить, а если уж утправил, то потом данные не достать. Маразм!!! 🤯
 }
 
 
-
+getExchangeRate(from: .usd, to: .eur)

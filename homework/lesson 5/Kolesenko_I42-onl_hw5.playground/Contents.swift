@@ -22,7 +22,7 @@ func getExchangeRate(from: Currency, to: Currency) -> Double? {
     }
 }
 
-getExchangeRate(from: .eur, to: .byn)
+getExchangeRate(from: .eur, to: .byn) 
 getExchangeRate(from: .byn, to: .usd)
 getExchangeRate(from: .eur, to: .usd)
 getExchangeRate(from: .usd, to: .eur)
